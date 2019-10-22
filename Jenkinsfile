@@ -1,6 +1,6 @@
 pipeline {
 	agent any
-	def mvnHome = tool 'Maven'
+	//def mvnHome = tool 'Maven'
 	
     stage (checkout){
 		echo 'Checking out source code'
