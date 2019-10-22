@@ -8,5 +8,9 @@ pipeline {
             }
         }
     }
-    
+    post {
+        always{
+            
+        }
+    }
  }
