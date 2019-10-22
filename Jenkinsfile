@@ -1,10 +1,14 @@
-node {
+pipeline {
+	agent any
 	def mvnHome = tool 'Maven'
 	
-    stage 'checkout'
-    echo 'Checking out source code'
-    git url: 'https://github.com/predic8/simple-jenkins2'
+    stage (checkout){
+		echo 'Checking out source code'
+		git url: 'https://github.com/predic8/simple-jenkins2'
 	
-	stage 'compile'
+	}    
+	stage (compile){
+		echo 'Compileling'
+	}
 
 }
