@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="21" failures="20" disabled="0" errors="0" time="41.891" timestamp="2019-10-22T10:52:00" name="AllTests">
+  <testsuite name="Get_Info" tests="1" failures="1" disabled="0" errors="0" time="2.068" timestamp="2019-10-22T10:52:00">
+    <testcase name="info_endpoint" status="run" result="completed" time="2.068" timestamp="2019-10-22T10:52:00" classname="Get_Info">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="TestPackage" tests="7" failures="6" disabled="0" errors="0" time="12.88" timestamp="2019-10-22T10:52:02">
+    <testcase name="POST_without_endpoint_argument_update" status="run" result="completed" time="2.025" timestamp="2019-10-22T10:52:02" classname="TestPackage">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="POST_with_onemore_argument" status="run" result="completed" time="2.018" timestamp="2019-10-22T10:52:04" classname="TestPackage">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="POST_test_no_file" status="run" result="completed" time="2.018" timestamp="2019-10-22T10:52:06" classname="TestPackage">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="POST_test_bad_file" status="run" result="completed" time="2.033" timestamp="2019-10-22T10:52:08" classname="TestPackage">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="POST_test_pkg_unable_to_install_command" status="run" result="completed" time="2.019" timestamp="2019-10-22T10:52:10" classname="TestPackage">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="break_request" status="run" result="completed" time="0.209" timestamp="2019-10-22T10:52:12" classname="TestPackage" />
+    <testcase name="break_request_POST_again_POST" status="run" result="completed" time="2.548" timestamp="2019-10-22T10:52:12" classname="TestPackage">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Get_Info_Package" tests="13" failures="13" disabled="0" errors="0" time="26.937" timestamp="2019-10-22T10:52:15">
+    <testcase name="break_POST_request_then_GET" status="run" result="completed" time="2.548" timestamp="2019-10-22T10:52:15" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="info_request_with_POST" status="run" result="completed" time="2.037" timestamp="2019-10-22T10:52:17" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="pkg_info_plc5_with_POST" status="run" result="completed" time="2.036" timestamp="2019-10-22T10:52:19" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="pkg_update_status_with_POST" status="run" result="completed" time="2.051" timestamp="2019-10-22T10:52:21" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="pkg_update_log_with_POST" status="run" result="completed" time="2.014" timestamp="2019-10-22T10:52:23" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="info_request_endpoint" status="run" result="completed" time="2.007" timestamp="2019-10-22T10:52:25" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="pkg_info_plc5_OK" status="run" result="completed" time="2.019" timestamp="2019-10-22T10:52:27" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="pkg_update_status_endPoint_OK" status="run" result="completed" time="2.046" timestamp="2019-10-22T10:52:29" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="pkg_update_log_OK" status="run" result="completed" time="2.052" timestamp="2019-10-22T10:52:31" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="notExist_EndPoint" status="run" result="completed" time="2.02" timestamp="2019-10-22T10:52:33" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="wrong_info_argument" status="run" result="completed" time="2.018" timestamp="2019-10-22T10:52:35" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="without_path_arguments" status="run" result="completed" time="2.046" timestamp="2019-10-22T10:52:37" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+    <testcase name="only_first_argument" status="run" result="completed" time="2.024" timestamp="2019-10-22T10:52:39" classname="Get_Info_Package">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.&#x0D;&#x0A;&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "WinHttpSendRequest: 12029: Die Serververbindung konnte nicht hergestellt werden.
+" thrown in the test body.]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
